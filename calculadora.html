@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Calculadora</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/calculadora.css" />
+  </head>
+
+  <body onload="calcular()">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+    </header>
+    <main>
+      <div class="container mt-5">
+        <h1 class="text-center">Calculadora</h1>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <input type="text" name="display" class="form-control" id="display"  />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-3">
+            <button type="button" id="7" class="btn btn-secondary btn-block">7</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="8" class="btn btn-secondary btn-block">8</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="9" class="btn btn-secondary btn-block">9</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="division" class="btn btn-warning btn-block">/</button>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-3">
+            <button type="button" id="4" class="btn btn-secondary btn-block">4</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="5" class="btn btn-secondary btn-block">5</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="6" class="btn btn-secondary btn-block">6</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="multiplicacion" class="btn btn-warning btn-block">*</button>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-3">
+            <button type="button" id="1" class="btn btn-secondary btn-block">1</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="2" class="btn btn-secondary btn-block">2</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="3" class="btn btn-secondary btn-block">3</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="resta" class="btn btn-warning btn-block">-</button>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-3">
+            <button type="button" id="0" class="btn btn-secondary btn-block">0</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="limpiar" class="btn btn-success btn-block">C</button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="igual" class="btn btn-success btn-block">=</button>
+          </div>
+
+          <div class="col-md-3">
+            <button type="button" id="suma" class="btn btn-warning btn-block">+</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/calculadora.js"></script>
+  </body>
+</html>
